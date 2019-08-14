@@ -1,0 +1,110 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,700&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Blinker", sans-serif;
+  background-color: #f8f7ff;
+  margin: 50px;
+}
+.phone {
+  background-color: #f8f8f8;
+  width: 250px;
+  height: 550px;
+  border-radius: 40px;
+  padding-top: 40px;
+  padding-left: 29px;
+  padding-right: 29px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 10px 20px;
+}
+.signin {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  opacity: 0.8;
+}
+.infobox .email,
+.infobox .password {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+.forgotpassword {
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.rememberme-text {
+  display: flex;
+  padding-top: 3px;
+  font-size: 11px;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}
+.remember-check {
+  display: flex;
+  justify-content: flex-start;
+}
+.signinbutton {
+  width: 100%;
+  height: 34px;
+  background-color: #e2283c;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.or {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.snsbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.snsbutton .facebookbutton,
+.snsbutton .Twitterbutton {
+  width: 115px;
+  height: 34px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.snsbutton .facebookbutton {
+  background-color: #475a95;
+}
+.snsbutton .Twitterbutton {
+  background-color: #5da1f2;
+}
+.footer {
+  font-size: 12px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+.Signup,
+.retrive {
+  color: red;
+  font-weight: 700;
+}

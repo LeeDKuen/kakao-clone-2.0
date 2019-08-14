@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #363636;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.phone {
+  margin-top: 50px;
+  background-color: white;
+  width: 350px;
+  height: 640px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  border-radius: 30px;
+  position: relative;
+  overflow: none;
+  padding: 40px 30px;
+}
+.header-menu {
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.main-recipes .main-pop-recipes {
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.main-pop-recipes .view {
+  color: #eb6876;
+}
+
+.main-recipes-pic {
+  color: white;
+  list-style: none;
+  width: 120px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.main-recipes-pic:first-child {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(89, 89, 89, 0.7) 100%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Foods_%28cropped%29.jpg/220px-Foods_%28cropped%29.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 30px;
+}
+.main-recipes-pic:nth-child(2) {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(89, 89, 89, 0.7) 100%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Foods_%28cropped%29.jpg/220px-Foods_%28cropped%29.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 30px;
+}
+.main-recipes-pic:nth-child(3) {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(89, 89, 89, 0.7) 100%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Foods_%28cropped%29.jpg/220px-Foods_%28cropped%29.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+.main-recipes-pic:last-child {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(89, 89, 89, 0.7) 100%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Foods_%28cropped%29.jpg/220px-Foods_%28cropped%29.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 200px;
+  right: 30px;
+}
+.main-other-recipes {
+  padding-top: 170px;
+  padding-bottom: 20px;
+}
+.main-other-recipes-title {
+  width: 100%;
+  height: 40px;
+  margin: 15px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.main-other-recipes-title-text {
+  padding-left: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.main-other-recipes-title-text div {
+  opacity: 0.3;
+}
+.main-other-recipes-title i {
+  margin-right: 10px;
+  color: #eb6876;
+  font-size: 14px;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+  background-color: white;
+  color: #8a8a8a;
+  box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.1);
+}
+.nav i:nth-child(2) {
+  color: #eb6876;
+}
